@@ -1,0 +1,41 @@
+#Parcerias{
+        background-color: #556127;
+        width: 100%;
+        height: 100%;
+}
+
+#Parcerias > div {
+        padding-bottom: 20px;
+}
+
+.texto-parcerias {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+}
+
+
+.experiencias-container{
+         display: flex;
+         flex-wrap: wrap;
+         gap: 30px;
+         justify-content: center;
+         align-items: center;
+ }
+.experiencias-container > div{
+        width: 45%;
+        height: 200px;
+        background: linear-gradient(130deg, #6B783A 0%, #758147 50%, #7E8953 100%);
+        border-top: 5px solid ;
+        border-radius: 30px;
+        pad: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+.experiencias-container img {
+        height: 20vh;
+}
+

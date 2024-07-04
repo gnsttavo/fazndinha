@@ -1,0 +1,66 @@
+.formu{
+    background: linear-gradient(90deg, #6B783A 0%, #758147 50%, #7E8953 100%);
+    min-width: 60%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 3px solid black;
+    border-radius: 40px;
+    /* adicionei essa propriedade que tira o elemento do fluxo padrao, e posicionei no centro com o top */
+    position: absolute;
+    top: 300px;
+}
+
+.formu img {
+    width: 150px;
+    height: 150px;
+}
+
+
+.formu label, input{
+    display: block;
+}
+
+.formu input{
+    background: none;
+    border: 2px solid black;
+    border-radius: 50px;
+    background-color: white;
+
+}
+
+
+.formu > div {
+    justify-content: space-evenly;
+
+}
+
+.formu > div > div{
+    margin: 20px;
+}
+
+.botao-pagamento{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+
+}
+
+.botao-pagamento {
+width: 100%;
+
+
+}
+
+
+.tel1{
+    padding-top: 10px;
+}
+
+.tel2{
+    display: flex;
+}
+

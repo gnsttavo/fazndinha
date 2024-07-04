@@ -1,0 +1,37 @@
+section{
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+section:nth-of-type(1){
+    width: 100%;
+    height: 50vh;
+    background-image: url(../assets/plantacao.jpeg);
+}
+
+section:nth-of-type(3){
+    background-image: url(../assets/azul.jpeg);
+    width: 100%;
+    height: 50vh;
+}
+
+section:nth-of-type(5){
+    background-image: url(../assets/trigomao.jpeg);
+    width: 100%;
+    height: 50vh;
+}
+
+section:nth-of-type(7){
+    background-image: url(../assets/transporte.jpeg);
+    width: 100%;
+    height: 50vh;
+}
+
+section:nth-of-type(9){
+    background-image: url(../assets/cestas.jpeg);
+    width: 100%;
+    height: 50vh;
+}
+

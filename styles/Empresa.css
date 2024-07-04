@@ -1,0 +1,12 @@
+#Empresa{
+    background-color: #556127;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    justify-content: center;
+}
+
+#Sobre h2{
+    align-items: center;
+
+}

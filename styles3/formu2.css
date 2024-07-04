@@ -1,0 +1,23 @@
+.formu{
+    background: linear-gradient(90deg, #6B783A 0%, #758147 50%, #7E8953 100%);
+    min-width: 50%;
+    height: 50vh;
+    display: flex;
+    border: 3px solid black;
+    border-radius: 40px;
+    /* adicionei essa propriedade que tira o elemento do fluxo padrao, e posicionei no centro com o top */
+    position: absolute;
+    top: 300px;
+}
+
+.formu img {
+    width: 150px;
+    height: 150px;
+}
+
+.formu{
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
